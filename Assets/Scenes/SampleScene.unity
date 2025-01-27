@@ -173,8 +173,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 1251064556}
   _enemy: {fileID: 6882892571981808989, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
-  _poolCapacity: 5
-  _poolMaxSize: 15
 --- !u!1 &387987560
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,8 +219,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 488562149}
   _enemy: {fileID: 1714685303315019672, guid: 20818fda9cf85f94ca4d9803d50fb8d8, type: 3}
-  _poolCapacity: 5
-  _poolMaxSize: 15
 --- !u!4 &488562149 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2468889828458600031, guid: 4a46e821c58b5cd42b14eaab6d197266, type: 3}
@@ -466,8 +462,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 1251064556}
   _enemy: {fileID: 6882892571981808989, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
-  _poolCapacity: 5
-  _poolMaxSize: 15
 --- !u!1001 &951265604
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -552,7 +546,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 511308317462507634, guid: 4a46e821c58b5cd42b14eaab6d197266, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -733,7 +728,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 511308317462507634, guid: 4a46e821c58b5cd42b14eaab6d197266, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -822,7 +818,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 511308317462507634, guid: 4a46e821c58b5cd42b14eaab6d197266, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -873,8 +870,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 629808136}
   _enemy: {fileID: 6882892571981808989, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
-  _poolCapacity: 5
-  _poolMaxSize: 15
 --- !u!4 &1251064556 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2468889828458600031, guid: 4a46e821c58b5cd42b14eaab6d197266, type: 3}
@@ -926,8 +921,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 102774112}
   _enemy: {fileID: 1714685303315019672, guid: 20818fda9cf85f94ca4d9803d50fb8d8, type: 3}
-  _poolCapacity: 5
-  _poolMaxSize: 15
 --- !u!1 &1507155534
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,8 +967,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 102774112}
   _enemy: {fileID: 1714685303315019672, guid: 20818fda9cf85f94ca4d9803d50fb8d8, type: 3}
-  _poolCapacity: 5
-  _poolMaxSize: 15
 --- !u!1001 &1560772838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1060,7 +1051,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 511308317462507634, guid: 4a46e821c58b5cd42b14eaab6d197266, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1146,8 +1138,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 1251064556}
   _enemy: {fileID: 6882892571981808989, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
-  _poolCapacity: 5
-  _poolMaxSize: 15
 --- !u!1 &1753004123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1160,7 +1150,6 @@ GameObject:
   - component: {fileID: 1753004126}
   - component: {fileID: 1753004125}
   - component: {fileID: 1753004124}
-  - component: {fileID: 1753004128}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1255,18 +1244,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1576136797}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1753004128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1753004123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04658611dc256774d8b5be302d0416c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1757900562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1313,8 +1290,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 102774112}
   _enemy: {fileID: 1714685303315019672, guid: 20818fda9cf85f94ca4d9803d50fb8d8, type: 3}
-  _poolCapacity: 5
-  _poolMaxSize: 15
 --- !u!1 &1813988422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,7 +1302,6 @@ GameObject:
   - component: {fileID: 1813988426}
   - component: {fileID: 1813988425}
   - component: {fileID: 1813988424}
-  - component: {fileID: 1813988427}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1422,18 +1396,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813988422}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1813988427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813988422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04658611dc256774d8b5be302d0416c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1876694148
 GameObject:
   m_ObjectHideFlags: 0
@@ -1446,7 +1408,6 @@ GameObject:
   - component: {fileID: 1876694152}
   - component: {fileID: 1876694151}
   - component: {fileID: 1876694150}
-  - component: {fileID: 1876694153}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1541,18 +1502,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1876694148}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1876694153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1876694148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04658611dc256774d8b5be302d0416c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1902844317
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,7 +1514,6 @@ GameObject:
   - component: {fileID: 1902844321}
   - component: {fileID: 1902844320}
   - component: {fileID: 1902844319}
-  - component: {fileID: 1902844322}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1660,18 +1608,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902844317}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1902844322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1902844317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04658611dc256774d8b5be302d0416c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2073646923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1734,6 +1670,8 @@ MonoBehaviour:
   - {fileID: 1192723434}
   - {fileID: 387987562}
   _delay: 2
+  _poolCapacity: 5
+  _poolMaxSize: 15
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
