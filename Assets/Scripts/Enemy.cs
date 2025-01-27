@@ -14,13 +14,6 @@ public class Enemy : MonoBehaviour
         Move();
     }
     
-    private void Move()
-    {
-        transform.position = Vector3.MoveTowards(transform.position, _target.position, _speed * Time.deltaTime);
-        
-        transform.LookAt(_target.position);
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.TryGetComponent(out Target target))
@@ -28,7 +21,14 @@ public class Enemy : MonoBehaviour
             Triggered?.Invoke(this);
         }
     }
-
+    
+    private void Move()
+    {
+        transform.position = Vector3.MoveTowards(transform.position, _target.position, _speed * Time.deltaTime);
+        
+        transform.LookAt(_target.position);
+    }
+    
     public void SetTarget(Transform target)
     {
         _target = target;
